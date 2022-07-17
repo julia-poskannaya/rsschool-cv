@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Nunito';
+  src: url('./nunito-regular/Nunito-Regular.ttf') format('truetype'),
+    url('./nunito-regular/Nunito-Regular.woff') format('woff'),
+    url('./nunito-regular/Nunito-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: 'regular';
+}
+
+@font-face {
+  font-family: 'Nunito-Bold';
+  src: url('./nunito-bold/Nunito-Bold.ttf') format('truetype'),
+    url('./nunito-bold/Nunito-Bold.woff') format('woff'),
+    url('./nunito-bold/Nunito-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: 'bold';
+}

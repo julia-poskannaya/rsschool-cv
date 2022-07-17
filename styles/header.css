@@ -1,0 +1,18 @@
+.header {
+  padding-top: 35px;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.header-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: right;
+}
