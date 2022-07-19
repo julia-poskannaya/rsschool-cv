@@ -1,18 +1,45 @@
 .header {
-  padding-top: 35px;
+  display: grid;
+  grid-template-columns: 370px 1fr;
+  gap: 50px;
+  align-items: center;
 }
 
-.header-title {
+.left-column {
+  background-color: rgba(63, 99, 104, 0.33);
+}
+
+.left-column-header {
+  padding-top: 40px;
+}
+
+.header-avatar {
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  width: 250px;
+  position: relative;
+  margin: auto;
+}
+
+.header-photo {
+  border-radius: 50%;
+  width: 100%;
+  object-fit: cover;
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 12px;
+}
+
+.header-title-name {
   font-weight: 700;
   font-size: 30px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  text-align: right;
 }
 
 .header-subtitle {
   font-weight: 400;
   font-size: 20px;
   text-transform: uppercase;
-  text-align: right;
 }

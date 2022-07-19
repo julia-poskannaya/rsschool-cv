@@ -1,39 +1,52 @@
-.general-info {
-  background-color: rgba(63, 99, 104, 0.33);
-  padding: 120px 20px 0;
+.info-wrapper {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 
-.general-info-block {
+.info-block {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.general-info-block-item-title {
+.info-block-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-block-item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.education-text {
+  width: 50%;
+}
+
+.info-block-item-title {
   font-size: 15px;
   color: #000000;
   padding-bottom: 5px;
 }
 
-.general-info-block-item-text {
+.info-block-item-text {
+  color: #000000;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.info-block-item-link {
   color: #000000;
   font-size: 15px;
 }
 
-.general-info-block-item-link {
-  color: #000000;
-  font-size: 15px;
-}
-
-.general-info-block-item-link:hover {
+.info-block-item-link:hover {
   color: #515151;
   transition: 0.4s;
 }
 
-.general-info-block-title {
+.info-block-title {
   position: relative;
   letter-spacing: 0.3em;
   font-size: 18px;
@@ -41,7 +54,7 @@
   padding-bottom: 7px;
 }
 
-.general-info-block-title::after {
+.info-block-title::after {
   content: '';
   width: 100%;
   height: 1px;
@@ -51,9 +64,9 @@
   left: 0;
 }
 
-.general-info-block-list {
+.info-block-list {
   padding-left: 17px;
 }
-.general-info-block-list-item:not(:last-child) {
+.info-block-list-item:not(:last-child) {
   padding-bottom: 5px;
 }
