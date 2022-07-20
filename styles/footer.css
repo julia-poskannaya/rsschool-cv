@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: rgba(63, 99, 104, 0.187);
+}
+
+.info-block-item-link-footer {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.footer-logo {
+  width: 13%;
+  padding-right: 30px;
+}
+
+.footer-logo-img {
+  width: 100%;
+}
