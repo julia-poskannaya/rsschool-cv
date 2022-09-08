@@ -23,3 +23,20 @@ Learning front-end development is a difficult and long path that looks like a ma
 ## Code example:
 
 `const reverseWords = (str) => str.split(' ').reverse().join(' ');`
+
+## Education:
+
+- Expert ecologist, International Sakharov Environmental Institute of Belarussian State University (sep 2014 - june 2018);
+- UX/UI student, Online-school “Itlogia” (Feb 2020 - May 2020);
+- Junior QA engineer, Udemy;
+
+## Work expirience:
+
+- Microbiological engineer, Minskhlebprom, bakery 5 (aug 2018 - feb 2021);
+- Labor protection engineer, Minskhlebprom (march 2021 - dec 2021);
+- Junior manual QA engineer, OxSoft (dec 2021 - present);
+
+## English:
+
+- A2;
+- Now I'm improving my english in the courses;
